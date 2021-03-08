@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-07T19:32:34 EST" name="Suite1" finished-at="2021-03-07T19:33:17 EST" duration-ms="42861">
+    <groups>
+    </groups>
+    <test started-at="2021-03-07T19:32:34 EST" name="Test" finished-at="2021-03-07T19:33:17 EST" duration-ms="42861">
+      <class name="Create_Account.Enter_Personal_Information">
+        <test-method signature="Personal_Information()[pri:0, instance:Create_Account.Enter_Personal_Information@358ee631]" started-at="2021-03-07T19:32:44 EST" name="Personal_Information" finished-at="2021-03-07T19:33:00 EST" duration-ms="15539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Personal_Information -->
+      </class> <!-- Create_Account.Enter_Personal_Information -->
+      <class name="Create_Account.Select_DOB">
+        <test-method signature="DOB()[pri:0, instance:Create_Account.Select_DOB@ec756bd]" started-at="2021-03-07T19:33:00 EST" name="DOB" finished-at="2021-03-07T19:33:16 EST" duration-ms="16736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DOB -->
+      </class> <!-- Create_Account.Select_DOB -->
+      <class name="Create_Account.Click_Account_Link">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Create_Account.Click_Account_Link@233fe9b6]" started-at="2021-03-07T19:32:34 EST" name="setup" finished-at="2021-03-07T19:32:39 EST" duration-ms="5562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="open_browser()[pri:0, instance:Create_Account.Click_Account_Link@233fe9b6]" started-at="2021-03-07T19:32:39 EST" name="open_browser" finished-at="2021-03-07T19:32:43 EST" duration-ms="3697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method signature="click_signIN()[pri:1, instance:Create_Account.Click_Account_Link@233fe9b6]" started-at="2021-03-07T19:32:43 EST" name="click_signIN" finished-at="2021-03-07T19:32:44 EST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_signIN -->
+        <test-method signature="email_address()[pri:2, instance:Create_Account.Click_Account_Link@233fe9b6]" started-at="2021-03-07T19:32:44 EST" name="email_address" finished-at="2021-03-07T19:32:44 EST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_address -->
+        <test-method signature="Create_Account()[pri:3, instance:Create_Account.Click_Account_Link@233fe9b6]" started-at="2021-03-07T19:32:44 EST" name="Create_Account" finished-at="2021-03-07T19:32:44 EST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Account -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Create_Account.Click_Account_Link@233fe9b6]" started-at="2021-03-07T19:33:16 EST" name="close_browser" finished-at="2021-03-07T19:33:17 EST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Create_Account.Click_Account_Link -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
